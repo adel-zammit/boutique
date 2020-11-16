@@ -1,0 +1,350 @@
+@charset "utf-8";
+/* Blouses Blanches de Pernes CSS */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	font-family: 'Muli', Verdana, sans-serif;
+	font-size: 16px;
+	color: #3e4040;
+	background-color: #05a95a;
+}
+h1 {
+	font-family: 'Montserrat', Verdana, sans-serif;
+	font-size: 24px;
+    color: #05a95a;
+    font-weight: bold;
+}
+h2 {
+    font-family: 'Montserrat', Verdana, sans-serif;
+	font-size: 20px;
+	color: #333333;
+	text-align: center;
+}
+p {
+	text-align: justify;
+	line-height: 28px;
+	}
+img {
+	height: auto;
+	max-width: 100%;
+}
+img.logo {
+	height:60px;
+	width: auto;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+#wrapper1 {
+	width: 100%;
+	background-color: #ffffff;
+	color: #999999;
+	font-size: 28px;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#photo {
+	float: left;
+}
+#banniere {
+	width: 1020px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#wrapper2 {
+	width: 100%;
+	background-color: #0786fb;
+}
+#navwrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1020px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Fjalla One', Verdana, sans-serif;
+}
+#wrapper3 {
+	background-color: #FFFFFF;
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+#contenu  {
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 20px;
+	width: 1000px;
+	padding-top: 30px;
+	padding-left: 1%;
+	padding-right: 1%;
+	min-height:510px;
+}
+#contenu  a   {
+	color: #555;
+	text-decoration: underline;
+}
+#contenu ul {
+	padding-right: 10px;
+}
+#wrapper4 {
+	width: 100%;
+	background-color: #05a95a;
+	padding-top: 0px;
+	padding-bottom: 1px;
+	color: #FFFFFF;
+	text-align: center;
+}
+#credits {
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	padding-top: 25px;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #666666;
+}
+#credits a {
+	font-weight: normal;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#credits   .syxago   a {
+	color: #FF9900;
+}
+#credits  a:hover {
+	text-decoration: underline;
+}
+#colonnegauche {
+	float: left;
+	width: 288px;
+	padding-left: 11px;
+	padding-right: 11px;
+	background-image: url(images/bgcolgauch.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#colonnedroite {
+	float: right;
+	width: 860px;
+	margin-bottom: 20px;
+}
+#plan {
+	float: left;
+	width: 50%;
+	margin-right: 20px;
+}
+.btnpicto {
+	float: left;
+    height: 350px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+	width: 230px;
+}
+.btnpicto.vert {
+    border: medium solid #19AF8C;
+}	
+.btnpicto.rouge {
+    border: medium solid #D42323;
+}
+.btnpicto.bleu {
+    border: medium solid #C3AFED;
+}
+.btnpicto.jaune {
+    border: medium solid #f6ef32;
+}
+.btnpicto.orange {
+    border: medium solid #EFB950;
+}
+.btnphoto {
+    float: left;
+    width: 19%;
+    padding: 2%;
+    border: thin solid #FFFFFF;
+    margin-right: 1%;
+    margin-bottom: 15px;
+}
+.video {
+	width: 800px;
+	height: 450px;
+	border: 0px;
+}
+#contenu li.r {
+	color:#A90C29;
+	margin-left: 1em;
+	padding-bottom:15px;
+}
+#contenu li.v {
+	color: #2D882D;
+	margin-left: 1em;
+	padding-bottom:15px;
+}
+.affichette {
+	text-align: center;
+	height: 200px;
+	width: auto;
+}
+.boximage {
+	float: right;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	background-color: red;
+	padding: 10px;
+}
+#actu {
+	text-decoration : none;
+	color:brown;
+}
+#actu a {
+	text-decoration : none;
+	color:brown;
+}
+#actu p {
+	font-size:80%;
+	margin-bottom:7px;
+}
+#actu hr {
+	color:brown;
+}
+.archive {
+	float: right;
+	padding: 10px;
+	height: 200px;
+	width: auto;
+	border: 0px;
+}
+.centrage {
+	text-align: center;
+	line-height: 22px;
+}
+.syxago  {
+	color: #FF6600;
+	background-color: #000099;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-bottom: 2px;
+}
+.petittexte {
+	font-size: 12px;
+}
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+.red a {
+   color:#FF0000;
+   font-size:.8em;
+}
+.vert a {
+   color:#00FF00;
+   font-size:.8em;
+}
+.show-password {
+	font-size: 9px;
+	text-transform: uppercase;
+	position: absolute;
+	cursor: pointer;
+	margin-left: -48px;
+}
+#map {
+   width: 100%;
+   height: 600px;
+   background-color: grey;
+ }
+/*recherche ajax*/
+dl,dt,dd,dd ul,dd ul li {
+	margin: 0;
+	padding: 0;
+}
+.conteneurselect{
+	height:25px;
+	display:block;
+	text-align:left;
+}
+.select{
+	text-align:center;
+	position:absolute;
+	display:block;
+}
+.select dl{
+	height:25px;
+	display:block;
+	float:left;
+}
+.select dt{
+	height:25px;
+	display:block;
+	line-height:30px;
+
+
+	text-align:left;
+	cursor:pointer;
+}
+.select dd{
+	width:280px;
+	padding-left:5px;
+	display:block;
+	background:#DEDFE1;
+	border-color:#DEDFE1;
+	border-style:ridge;
+	overflow-y : scroll;
+}
+
+.select dd ul{
+	display:block;	
+	text-align:left;
+	list-style:none;
+	height:150px;
+}
+.select dd ul li{
+	display:block;
+}
+.select dd ul li a{
+	color:#000;
+
+	display:block;
+	text-decoration:none;
+	font-size:12px;
+	height:20px;
+	line-height:20px;
+}
+.select dd ul li a:hover{
+	background:#990033; 
+	color:#fff;
+}
+.select dl:hover dd,dl:hover dd ul{
+	display:block;
+}
+/* responsive*/
+@media screen and (max-width: 1010px) {
+
+    #banniere, #contenu, #credits {width: 95%;}
+	#navwrapper {width: 98%;}
+    #logo {width: 25%;}
+    #photo {width: 75%;}
+}
+@media screen and (max-width: 700px) {
+    #logo {float: none;width: 100%;padding-left:10%;}
+    #photo {float: none;width: 100%;}
+	#plan {width: 100%;}
+	.margedroite {margin-top: 0;} 
+}
+@media screen and (max-width: 400px) { 
+    h2 {font-size:.8em;}
+	.btnpicto { width: 40%;height:220px;}
+	.btnphoto { width: 60%;}
+	.video { width: 40%;height:200px;}
+	img.logo {height:30px;}
+	.boximage {width: 40%}
+}
