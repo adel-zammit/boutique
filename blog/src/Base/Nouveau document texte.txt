@@ -1,0 +1,33 @@
+$perPage = intval(2);
+    $articleTotal = intval($article->countArticle()['total']);
+    $totalPage = ceil($articleTotal / $perPage);
+    $currentPage = intval(!empty($_GET['start']) ? $_GET['start'] : '');
+    $currentPage = max(1, min($currentPage, $totalPage));
+    $range = intval(2);
+
+    $startInner = max(2, $currentPage - $range);
+    $endInner = min($currentPage + $range, $totalPage - 1);
+            var_dump($totalPage);
+    if($startInner <= $endInner)
+    {
+        $innerPages = range($startInner, $endInner);
+    }
+    else
+    {
+        $innerPages = []; 
+    }
+    ?>
+     <a href="articles.php">1</a>
+    <?php 
+    if(!empty($innerPages))
+    {
+        foreach ($innerPages as $innerPage)
+        {
+            ?>
+                <a href="articles.php?start=<?= $innerPage ?>"><?= $innerPage ?></a>
+            <?php
+        }
+    }
+    ?>
+     <a href="articles.php?start=<?= $totalPage ?>"><?= $totalPage ?></a>
+    <?php
